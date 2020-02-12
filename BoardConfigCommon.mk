@@ -23,6 +23,9 @@ TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH_VARIANT := armv7-a-neon
 
+# FIXME
+ALLOW_MISSING_DEPENDENCIES=true
+
 # LineageHW
 BOARD_HARDWARE_CLASS += hardware/samsung/lineagehw
 
